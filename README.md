@@ -1,9 +1,3 @@
-#!/usr/bin/make -f
-SHELL = /bin/bash
-AWESOME_BOT_OPTIONS = --allow-redirect --request-delay 1 --skip-save-results --allow 202 --white-list flaskbb.org,nitter.net,airsonic.github.io/docs/apps
-
-all: check_all
-
 # run all checks
 check_all: check_syntax_full awesome_bot check_github_commit_dates
 
